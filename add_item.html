@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Add Item - Tuck-Tech Buddy</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<h1>Tuck-Tech Buddy</h1>
+	</header>
+	<nav>
+		<a href="index.html">View Inventory</a>
+		<a href="add_item.html" class="active">Add Item</a>
+		<a href="edit_item.html">Edit Item</a>
+		<a href="#">Delete Item</a>
+		<a href="#">View Reports</a>
+	</nav>
+	<main>
+		<form>
+			<h2>Add Item</h2>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="description">Description:</label>
+			<input type="text" id="description" name="description" required>
+
+			<label for="quantity">Quantity:</label>
+			<input type="number" id="quantity" name="quantity" required>
+
+			<label for="cost">Cost:</label>
+			<input type="text" id="cost" name="cost" required>
+
+			<label for="supplier">Supplier:</label>
+			<select id="supplier" name="supplier">
+				<option value="supplier1">Supplier 1</option>
+				<option value="supplier2">Supplier 2</option>
+				<option value="supplier3">Supplier 3</option>
+			</select>
+
+			<input type="submit" value="Add Item">
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2023 Inventory Management System</p>
+	</footer>
+</body>
+</html>
