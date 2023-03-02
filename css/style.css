@@ -1,0 +1,114 @@
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 34px;
+    margin-bottom: 31px;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #ddd;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 19px;
+}
+
+/* Style the navigation links */
+nav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+/* Style the active navigation link */
+nav a.active {
+    background-color: #333;
+    color: white;
+}
+
+/* Style the form */
+form {
+    margin-bottom: 20px;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Style the form inputs */
+input[type=text], select, input[type=number], input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-style :inset;
+}
+
+/* Style the form button */
+input[type=submit] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+/* Style the form button on hover */
+input[type=submit]:hover {
+    background-color: #555;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+/* Style the table header */
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the table cells */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Image */
+body {
+    background-image: url("/css/WhatsApp\ Image\ 2023-03-02\ at\ 9.10.53\ PM.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+  
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 35%);
+    margin: 100px auto;
+    padding: 20px;
+    max-width: 90%;
+    text-align: center;
+}
+  
